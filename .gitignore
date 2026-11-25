@@ -1,0 +1,7 @@
+.venv/
+.venv-wsl/
+__pycache__/
+.pytest_cache/
+# The release zip is attached to the GitHub release, not committed.
+dachs-custom-component.zip
+dachs-*.zip
