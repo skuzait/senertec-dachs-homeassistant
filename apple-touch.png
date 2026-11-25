@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="de" class="html_stretched responsive av-preloader-disabled av-default-lightbox  html_header_top html_logo_left html_main_nav_header html_menu_right html_slim html_header_sticky html_header_shrinking_disabled html_header_topbar_active html_mobile_menu_tablet html_header_searchicon html_content_align_center html_header_unstick_top html_header_stretch html_elegant-blog html_modern-blog html_av-submenu-hidden html_av-submenu-display-click html_av-overlay-side html_av-overlay-side-classic html_av-submenu-clone av-no-preview html_text_menu_active ">
+<head>
+<meta charset="UTF-8" />
+
+
+<!-- mobile setting -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!-- Scripts/CSS and wp_head hook -->
+<meta name='robots' content='noindex, follow' />
+    <script id="c3accessibility-init">
+        window.c3accessibility ??= {};
+        window.c3accessibility.commitSettings = (settings) => {
+            const usedKeys = [];
+            for (const [key, value] of Object.entries(settings)) {
+                const capitalized = key.charAt(0).toUpperCase() + key.slice(1);
+                const dataKey = `c3accessibility${capitalized}`;
+                document.documentElement.dataset[dataKey] = value;
+                usedKeys.push(dataKey);
+            }
+            for (const [key] of Object.entries(document.documentElement.dataset)) {
+                if (!usedKeys.includes(key)) {
+                    delete document.documentElement.dataset[key];
+                }
+            }
+            localStorage.setItem('c3accessibility.settings', JSON.stringify(settings));
+        };
+        window.c3accessibility.getSettings = () => {
+            return JSON.parse(localStorage.getItem('c3accessibility.settings') ?? '{}');
+        };
+        window.c3accessibility.getSettingsUrl = () => {
+            const url = new URL(location);
+            for (const [key, value] of Object.entries(window.c3accessibility.getSettings())) {
+                url.searchParams.set(`c3accessibility[${key}]`, value);
+            }
+            return url.toString();
+        };
+        window.c3accessibility.commitSettings(window.c3accessibility.getSettings());
+        window.c3accessibility.assets = {
+            icons: {"Access":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/Access.svg","DropDown":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/DropDown.svg","DropDownClose":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/DropDownClose.svg","FontDefault":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/FontDefault.svg","FontLarger":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/FontLarger.svg","FontLargest":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/FontLargest.svg","LineDefault":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/LineDefault.svg","LineLarger":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/LineLarger.svg","LineLargest":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/LineLargest.svg","OpenIn":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/OpenIn.svg","OptionColorFilter":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/OptionColorFilter.svg","OptionFontFamily":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/OptionFontFamily.svg","OptionFontSize":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/OptionFontSize.svg","OptionGraphics":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/OptionGraphics.svg","OptionLineHeight":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/OptionLineHeight.svg","OptionReduceMotion":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/OptionReduceMotion.svg","OptionScreenreader":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/OptionScreenreader.svg","Reject":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/Reject.svg","Save":"https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/icons\/Save.svg"},
+            styles: {accessibility: "https:\/\/www.senertec.de\/wp-content\/plugins\/c3-accessibility\/assets\/css\/accesibility.css" }
+        };
+    </script>
+    
+	<!-- This site is optimized with the Yoast SEO plugin v28.2 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Seite wurde nicht gefunden. | Der Dachs.</title>
+	<meta property="og:locale" content="de_DE" />
+	<meta property="og:title" content="Seite wurde nicht gefunden. | Der Dachs." />
+	<meta property="og:site_name" content="Der Dachs." />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/www.senertec.de\/#website","url":"https:\/\/www.senertec.de\/","name":"Der Dachs.","description":"Einfach beim Heizen Strom erzeugen.","publisher":{"@id":"https:\/\/www.senertec.de\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/www.senertec.de\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"de"},{"@type":"Organization","@id":"https:\/\/www.senertec.de\/#organization","name":"SenerTec Kraft-Wärme-Energiesysteme GmbH","url":"https:\/\/www.senertec.de\/","logo":{"@type":"ImageObject","inLanguage":"de","@id":"https:\/\/www.senertec.de\/#\/schema\/logo\/image\/","url":"https:\/\/www.senertec.de\/wp-content\/uploads\/2017\/01\/Der-Dachs-2.png","contentUrl":"https:\/\/www.senertec.de\/wp-content\/uploads\/2017\/01\/Der-Dachs-2.png","width":1252,"height":540,"caption":"SenerTec Kraft-Wärme-Energiesysteme GmbH"},"image":{"@id":"https:\/\/www.senertec.de\/#\/schema\/logo\/image\/"},"sameAs":["https:\/\/www.facebook.com\/DerDachs\/","https:\/\/www.youtube.com\/channel\/UCro5Rvx9yH1Y97a3UeVs3ug"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Der Dachs. &raquo; Feed" href="https://www.senertec.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Der Dachs. &raquo; Kommentar-Feed" href="https://www.senertec.de/comments/feed/" />
+<link rel="alternate" type="text/calendar" title="Der Dachs. &raquo; iCal Feed" href="https://www.senertec.de/veranstaltungen/?ical=1" />
+<link rel="preload" href="https://www.senertec.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-config-de.json.js?ver=3.5.0-114" as="script">
+<link rel="preload" href="https://www.senertec.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-1-de.css?ver=3.5.0-48" as="style">
+<link rel="preload" href="https://www.senertec.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie-prioritize.min.js?ver=3.5.0" as="script">
+<style id="wp-img-auto-sizes-contain-inline-css">
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<link rel='stylesheet' id='avia-grid-css' href='https://www.senertec.de/wp-content/themes/enfold/css/grid.css?ver=4.4' media='all' />
+<link rel='stylesheet' id='avia-base-css' href='https://www.senertec.de/wp-content/themes/enfold/css/base.css?ver=4.4' media='all' />
+<link rel='stylesheet' id='avia-layout-css' href='https://www.senertec.de/wp-content/themes/enfold/css/layout.css?ver=4.4' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow/slideshow.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-extended-blog-style-css' href='https://www.senertec.de/wp-content/themes/senertec-child-design/shortcodes/avia_extended_blog.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-audioplayer-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/audio-player/audio-player.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-blog-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/blog/blog.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-postslider-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/postslider/postslider.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-button-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttons/buttons.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-buttonrow-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttonrow/buttonrow.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-button-fullwidth-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/buttons_fullwidth/buttons_fullwidth.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-catalogue-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/catalogue/catalogue.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-comments-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/comments/comments.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-contact-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/contact/contact.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-contentpartner-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/contentslider/contentslider.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-countdown-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/countdown/countdown.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-events-upcoming-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/events_upcoming/events_upcoming.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-gallery-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/gallery/gallery.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-gallery-hor-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/gallery_horizontal/gallery_horizontal.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-maps-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/google_maps/google_maps.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-gridrow-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/grid_row/grid_row.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-heading-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/heading/heading.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-rotator-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/headline_rotator/headline_rotator.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-hr-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/hr/hr.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-icon-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/icon/icon.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-iconbox-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/iconbox/iconbox.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-iconlist-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/iconlist/iconlist.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-image-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image/image.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-hotspot-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/image_hotspots/image_hotspots.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-magazine-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/magazine/magazine.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-masonry-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/masonry_entries/masonry_entries.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-siteloader-css' href='https://www.senertec.de/wp-content/themes/enfold/css/avia-snippet-site-preloader.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-menu-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/menu/menu.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-modfule-notification-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/notification/notification.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-numbers-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/numbers/numbers.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-portfolio-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/portfolio/portfolio.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-progress-bar-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/progressbar/progressbar.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-promobox-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/promobox/promobox.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-accordion-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_accordion/slideshow_accordion.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-feature-image-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_feature_image/slideshow_feature_image.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-fullsize-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_fullsize/slideshow_fullsize.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-fullscreen-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_fullscreen/slideshow_fullscreen.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-slideshow-ls-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/slideshow_layerslider/slideshow_layerslider.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-social-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/social_share/social_share.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-tabsection-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tab_section/tab_section.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-table-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/table/table.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-tabs-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/tabs/tabs.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-team-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/team/team.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-testimonials-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/testimonials/testimonials.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-timeline-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/timeline/timeline.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-toggles-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/toggles/toggles.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='avia-module-video-css' href='https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-shortcodes/video/video.css?ver=7.0.8' media='all' />
+<style id="wp-block-library-inline-css">
+:root{--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color);--wp-editor-canvas-background:#ddd;--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,160.5;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}:root .has-text-align-center{text-align:center}:root .has-text-align-left{text-align:left}:root .has-text-align-right{text-align:right}.has-fit-text{white-space:nowrap!important}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{word-wrap:normal!important;border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-color]){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
+
+/*# sourceURL=/wp-includes/css/dist/block-library/common.min.css */
+</style>
+<style id="classic-theme-styles-inline-css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(body) { margin: 0; }:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;font-style: inherit;font-weight: inherit;letter-spacing: inherit;line-height: inherit;padding-top: calc(0.667em + 2px);padding-right: calc(1.333em + 2px);padding-bottom: calc(0.667em + 2px);padding-left: calc(1.333em + 2px);text-decoration: none;text-transform: inherit;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+
+<link rel='stylesheet' id='c3-accessibility-css' href='https://www.senertec.de/wp-content/plugins/c3-accessibility/assets/css/accesibility.css?ver=1777384098' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://www.senertec.de/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=6.1.6' media='all' />
+<style id="wp-showhide-inline-css">
+.sh-toggle{background:none;border:0;padding:0;margin:0;font:inherit;color:inherit;cursor:pointer;text-decoration:underline}.sh-content[hidden]{display:none}
+/*# sourceURL=wp-showhide-inline-css */
+</style>
+<link rel='stylesheet' id='avia-scs-css' href='https://www.senertec.de/wp-content/themes/enfold/css/shortcodes.css?ver=4.4' media='all' />
+<link rel='stylesheet' id='avia-popup-css-css' href='https://www.senertec.de/wp-content/themes/enfold/js/aviapopup/magnific-popup.css?ver=4.4' media='screen' />
+<link rel='stylesheet' id='avia-lightbox-css' href='https://www.senertec.de/wp-content/themes/enfold/css/avia-snippet-lightbox.css?ver=4.4' media='screen' />
+<link rel='stylesheet' id='avia-widget-css-css' href='https://www.senertec.de/wp-content/themes/enfold/css/avia-snippet-widget.css?ver=4.4' media='screen' />
+<link rel='stylesheet' id='avia-dynamic-css' href='https://www.senertec.de/wp-content/uploads/dynamic_avia/senertec_design.css?ver=6a44c122eeab8' media='all' />
+<link rel='stylesheet' id='avia-custom-css' href='https://www.senertec.de/wp-content/themes/enfold/css/custom.css?ver=4.4' media='all' />
+<link rel='stylesheet' id='avia-style-css' href='https://www.senertec.de/wp-content/themes/senertec-child-design/style.css?ver=4.4' media='all' />
+<style id="borlabs-cookie-critical-inline-css">
+body div.brlbs-cmpnt-container a,body div.brlbs-cmpnt-container abbr,body div.brlbs-cmpnt-container acronym,body div.brlbs-cmpnt-container address,body div.brlbs-cmpnt-container applet,body div.brlbs-cmpnt-container article,body div.brlbs-cmpnt-container aside,body div.brlbs-cmpnt-container audio,body div.brlbs-cmpnt-container b,body div.brlbs-cmpnt-container big,body div.brlbs-cmpnt-container blockquote,body div.brlbs-cmpnt-container canvas,body div.brlbs-cmpnt-container caption,body div.brlbs-cmpnt-container center,body div.brlbs-cmpnt-container cite,body div.brlbs-cmpnt-container code,body div.brlbs-cmpnt-container dd,body div.brlbs-cmpnt-container del,body div.brlbs-cmpnt-container details,body div.brlbs-cmpnt-container dfn,body div.brlbs-cmpnt-container div,body div.brlbs-cmpnt-container dl,body div.brlbs-cmpnt-container dt,body div.brlbs-cmpnt-container em,body div.brlbs-cmpnt-container embed,body div.brlbs-cmpnt-container fieldset,body div.brlbs-cmpnt-container figcaption,body div.brlbs-cmpnt-container figure,body div.brlbs-cmpnt-container footer,body div.brlbs-cmpnt-container form,body div.brlbs-cmpnt-container h1,body div.brlbs-cmpnt-container h2,body div.brlbs-cmpnt-container h3,body div.brlbs-cmpnt-container h4,body div.brlbs-cmpnt-container h5,body div.brlbs-cmpnt-container h6,body div.brlbs-cmpnt-container header,body div.brlbs-cmpnt-container hgroup,body div.brlbs-cmpnt-container i,body div.brlbs-cmpnt-container iframe,body div.brlbs-cmpnt-container img,body div.brlbs-cmpnt-container ins,body div.brlbs-cmpnt-container kbd,body div.brlbs-cmpnt-container label,body div.brlbs-cmpnt-container legend,body div.brlbs-cmpnt-container li,body div.brlbs-cmpnt-container mark,body div.brlbs-cmpnt-container menu,body div.brlbs-cmpnt-container nav,body div.brlbs-cmpnt-container object,body div.brlbs-cmpnt-container ol,body div.brlbs-cmpnt-container output,body div.brlbs-cmpnt-container p,body div.brlbs-cmpnt-container pre,body div.brlbs-cmpnt-container q,body div.brlbs-cmpnt-container ruby,body div.brlbs-cmpnt-container s,body div.brlbs-cmpnt-container samp,body div.brlbs-cmpnt-container section,body div.brlbs-cmpnt-container small,body div.brlbs-cmpnt-container span,body div.brlbs-cmpnt-container strike,body div.brlbs-cmpnt-container strong,body div.brlbs-cmpnt-container sub,body div.brlbs-cmpnt-container summary,body div.brlbs-cmpnt-container sup,body div.brlbs-cmpnt-container table,body div.brlbs-cmpnt-container tbody,body div.brlbs-cmpnt-container td,body div.brlbs-cmpnt-container tfoot,body div.brlbs-cmpnt-container th,body div.brlbs-cmpnt-container thead,body div.brlbs-cmpnt-container time,body div.brlbs-cmpnt-container tr,body div.brlbs-cmpnt-container tt,body div.brlbs-cmpnt-container u,body div.brlbs-cmpnt-container ul,body div.brlbs-cmpnt-container var,body div.brlbs-cmpnt-container video{margin:0;padding:0;border:0;font-size:100%;font-family:inherit;vertical-align:baseline}body div.brlbs-cmpnt-container article,body div.brlbs-cmpnt-container aside,body div.brlbs-cmpnt-container details,body div.brlbs-cmpnt-container figcaption,body div.brlbs-cmpnt-container figure,body div.brlbs-cmpnt-container footer,body div.brlbs-cmpnt-container header,body div.brlbs-cmpnt-container hgroup,body div.brlbs-cmpnt-container menu,body div.brlbs-cmpnt-container nav,body div.brlbs-cmpnt-container section{display:block}body div.brlbs-cmpnt-container blockquote,body div.brlbs-cmpnt-container q{quotes:none}body div.brlbs-cmpnt-container blockquote:after,body div.brlbs-cmpnt-container blockquote:before,body div.brlbs-cmpnt-container q:after,body div.brlbs-cmpnt-container q:before{content:none}body div.brlbs-cmpnt-container table{border-spacing:0}body div.brlbs-cmpnt-container,body div.brlbs-cmpnt-container *{box-sizing:border-box;color:inherit;font-family:inherit;line-height:inherit;position:static;inset:auto;width:auto;height:auto}body div.brlbs-cmpnt-container button,body div.brlbs-cmpnt-container input,body div.brlbs-cmpnt-container optgroup,body div.brlbs-cmpnt-container select,body div.brlbs-cmpnt-container textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}body div.brlbs-cmpnt-container button:after,body div.brlbs-cmpnt-container button:before{content:none}body div.brlbs-cmpnt-container button,body div.brlbs-cmpnt-container select{text-transform:none}body div.brlbs-cmpnt-container [type=button],body div.brlbs-cmpnt-container [type=reset],body div.brlbs-cmpnt-container [type=submit],body div.brlbs-cmpnt-container button{-webkit-appearance:button}body div.brlbs-cmpnt-container ::-moz-focus-inner{border-style:none;padding:0}body div.brlbs-cmpnt-container :-moz-focusring{outline:1px dotted ButtonText}body div.brlbs-cmpnt-container :-moz-ui-invalid{box-shadow:none}body div.brlbs-cmpnt-container legend{padding:0}body div.brlbs-cmpnt-container progress{vertical-align:baseline}body div.brlbs-cmpnt-container ::-webkit-inner-spin-button,body div.brlbs-cmpnt-container ::-webkit-outer-spin-button{height:auto}body div.brlbs-cmpnt-container [type=search]{-webkit-appearance:textfield;outline-offset:-2px}body div.brlbs-cmpnt-container ::-webkit-search-decoration{-webkit-appearance:none}body div.brlbs-cmpnt-container ::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body div.brlbs-cmpnt-container summary{display:list-item}body div.brlbs-cmpnt-container blockquote,body div.brlbs-cmpnt-container dd,body div.brlbs-cmpnt-container dl,body div.brlbs-cmpnt-container figure,body div.brlbs-cmpnt-container h1,body div.brlbs-cmpnt-container h2,body div.brlbs-cmpnt-container h3,body div.brlbs-cmpnt-container h4,body div.brlbs-cmpnt-container h5,body div.brlbs-cmpnt-container h6,body div.brlbs-cmpnt-container hr,body div.brlbs-cmpnt-container p,body div.brlbs-cmpnt-container pre{margin:0}body div.brlbs-cmpnt-container button{background-color:transparent;background-image:none}body div.brlbs-cmpnt-container button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}body div.brlbs-cmpnt-container fieldset{margin:0;padding:0}body div.brlbs-cmpnt-container ol,body div.brlbs-cmpnt-container ul{list-style:none;margin:0;padding:0}body div.brlbs-cmpnt-container *,body div.brlbs-cmpnt-container :after,body div.brlbs-cmpnt-container :before{box-sizing:border-box;border-color:#e5e7eb;border-style:solid;border-width:0}body div.brlbs-cmpnt-container hr{border-top-width:1px}body div.brlbs-cmpnt-container img{border-style:solid}body div.brlbs-cmpnt-container textarea{resize:vertical}body div.brlbs-cmpnt-container input::-moz-placeholder,body div.brlbs-cmpnt-container textarea::-moz-placeholder{color:#9ca3af}body div.brlbs-cmpnt-container input::placeholder,body div.brlbs-cmpnt-container textarea::placeholder{color:#9ca3af}body div.brlbs-cmpnt-container [role=button],body div.brlbs-cmpnt-container button{cursor:pointer}body div.brlbs-cmpnt-container table{border-collapse:collapse}body div.brlbs-cmpnt-container h1,body div.brlbs-cmpnt-container h2,body div.brlbs-cmpnt-container h3,body div.brlbs-cmpnt-container h4,body div.brlbs-cmpnt-container h5,body div.brlbs-cmpnt-container h6{font-size:inherit;font-weight:inherit}body div.brlbs-cmpnt-container a{color:inherit;text-decoration:inherit}body div.brlbs-cmpnt-container button,body div.brlbs-cmpnt-container input,body div.brlbs-cmpnt-container optgroup,body div.brlbs-cmpnt-container select,body div.brlbs-cmpnt-container textarea{padding:0;line-height:inherit;color:inherit}body div.brlbs-cmpnt-container code,body div.brlbs-cmpnt-container kbd,body div.brlbs-cmpnt-container pre,body div.brlbs-cmpnt-container samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}body div.brlbs-cmpnt-container audio,body div.brlbs-cmpnt-container canvas,body div.brlbs-cmpnt-container embed,body div.brlbs-cmpnt-container iframe,body div.brlbs-cmpnt-container img,body div.brlbs-cmpnt-container object,body div.brlbs-cmpnt-container svg,body div.brlbs-cmpnt-container video{display:block;vertical-align:middle}body div.brlbs-cmpnt-container img,body div.brlbs-cmpnt-container video{max-width:100%;height:auto}body div.brlbs-cmpnt-container [multiple],body div.brlbs-cmpnt-container [type=date],body div.brlbs-cmpnt-container [type=datetime-local],body div.brlbs-cmpnt-container [type=email],body div.brlbs-cmpnt-container [type=month],body div.brlbs-cmpnt-container [type=number],body div.brlbs-cmpnt-container [type=password],body div.brlbs-cmpnt-container [type=search],body div.brlbs-cmpnt-container [type=tel],body div.brlbs-cmpnt-container [type=text],body div.brlbs-cmpnt-container [type=time],body div.brlbs-cmpnt-container [type=url],body div.brlbs-cmpnt-container [type=week],body div.brlbs-cmpnt-container select,body div.brlbs-cmpnt-container textarea{-webkit-appearance:none;-moz-appearance:none;appearance:none;background-color:#fff;border-color:#6b7280;border-width:1px;border-radius:0;padding:.5rem .75rem;font-size:1rem;line-height:1.5rem}body div.brlbs-cmpnt-container [multiple]:focus,body div.brlbs-cmpnt-container [type=date]:focus,body div.brlbs-cmpnt-container [type=datetime-local]:focus,body div.brlbs-cmpnt-container [type=email]:focus,body div.brlbs-cmpnt-container [type=month]:focus,body div.brlbs-cmpnt-container [type=number]:focus,body div.brlbs-cmpnt-container [type=password]:focus,body div.brlbs-cmpnt-container [type=search]:focus,body div.brlbs-cmpnt-container [type=tel]:focus,body div.brlbs-cmpnt-container [type=text]:focus,body div.brlbs-cmpnt-container [type=time]:focus,body div.brlbs-cmpnt-container [type=url]:focus,body div.brlbs-cmpnt-container [type=week]:focus,body div.brlbs-cmpnt-container select:focus,body div.brlbs-cmpnt-container textarea:focus{outline:2px solid transparent;outline-offset:2px;--brlbs-tw-ring-inset:var(--brlbs-tw-empty, );--brlbs-tw-ring-offset-width:0px;--brlbs-tw-ring-offset-color:#fff;--brlbs-tw-ring-color:#2563eb;--brlbs-tw-ring-offset-shadow:var(--brlbs-tw-ring-inset) 0 0 0 var(--brlbs-tw-ring-offset-width) var(--brlbs-tw-ring-offset-color);--brlbs-tw-ring-shadow:var(--brlbs-tw-ring-inset) 0 0 0 calc(1px + var(--brlbs-tw-ring-offset-width)) var(--brlbs-tw-ring-color);box-shadow:var(--brlbs-tw-ring-offset-shadow),var(--brlbs-tw-ring-shadow),var(--brlbs-tw-shadow,0 0 transparent);border-color:#2563eb}body div.brlbs-cmpnt-container input::-moz-placeholder,body div.brlbs-cmpnt-container textarea::-moz-placeholder{color:#6b7280;opacity:1}body div.brlbs-cmpnt-container input::placeholder,body div.brlbs-cmpnt-container textarea::placeholder{color:#6b7280;opacity:1}body div.brlbs-cmpnt-container ::-webkit-datetime-edit-fields-wrapper{padding:0}body div.brlbs-cmpnt-container ::-webkit-date-and-time-value{min-height:1.5em}body div.brlbs-cmpnt-container select{background-image:url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20stroke%3D%22%236b7280%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%221.5%22%20d%3D%22m6%208%204%204%204-4%22%2F%3E%3C%2Fsvg%3E);background-position:right .5rem center;background-repeat:no-repeat;background-size:1.5em 1.5em;padding-right:2.5rem;-webkit-print-color-adjust:exact;print-color-adjust:exact}body div.brlbs-cmpnt-container [multiple]{background-image:none;background-position:0 0;background-repeat:unset;background-size:initial;padding-right:.75rem;-webkit-print-color-adjust:unset;print-color-adjust:unset}body div.brlbs-cmpnt-container [type=checkbox],body div.brlbs-cmpnt-container [type=radio]{-webkit-appearance:none;-moz-appearance:none;appearance:none;padding:0;-webkit-print-color-adjust:exact;print-color-adjust:exact;display:inline-block;vertical-align:middle;background-origin:border-box;-webkit-user-select:none;-moz-user-select:none;user-select:none;flex-shrink:0;height:1rem;width:1rem;color:#2563eb;background-color:#fff;border-color:#6b7280;border-width:1px}body div.brlbs-cmpnt-container [type=checkbox]{border-radius:0}body div.brlbs-cmpnt-container [type=radio]{border-radius:100%}body div.brlbs-cmpnt-container [type=checkbox]:focus,body div.brlbs-cmpnt-container [type=radio]:focus{outline:2px solid transparent;outline-offset:2px;--brlbs-tw-ring-inset:var(--brlbs-tw-empty, );--brlbs-tw-ring-offset-width:2px;--brlbs-tw-ring-offset-color:#fff;--brlbs-tw-ring-color:#2563eb;--brlbs-tw-ring-offset-shadow:var(--brlbs-tw-ring-inset) 0 0 0 var(--brlbs-tw-ring-offset-width) var(--brlbs-tw-ring-offset-color);--brlbs-tw-ring-shadow:var(--brlbs-tw-ring-inset) 0 0 0 calc(2px + var(--brlbs-tw-ring-offset-width)) var(--brlbs-tw-ring-color);box-shadow:var(--brlbs-tw-ring-offset-shadow),var(--brlbs-tw-ring-shadow),var(--brlbs-tw-shadow,0 0 transparent)}body div.brlbs-cmpnt-container [type=checkbox]:checked,body div.brlbs-cmpnt-container [type=radio]:checked{border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:50%;background-repeat:no-repeat}body div.brlbs-cmpnt-container [type=checkbox]:checked{background-image:url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20d%3D%22M12.207%204.793a1%201%200%200%201%200%201.414l-5%205a1%201%200%200%201-1.414%200l-2-2a1%201%200%200%201%201.414-1.414L6.5%209.086l4.293-4.293a1%201%200%200%201%201.414%200%22%2F%3E%3C%2Fsvg%3E)}body div.brlbs-cmpnt-container [type=radio]:checked{background-image:url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%23fff%22%20viewBox%3D%220%200%2016%2016%22%3E%3Ccircle%20cx%3D%228%22%20cy%3D%228%22%20r%3D%223%22%2F%3E%3C%2Fsvg%3E)}body div.brlbs-cmpnt-container [type=checkbox]:checked:focus,body div.brlbs-cmpnt-container [type=checkbox]:checked:hover,body div.brlbs-cmpnt-container [type=radio]:checked:focus,body div.brlbs-cmpnt-container [type=radio]:checked:hover{border-color:transparent;background-color:currentColor}body div.brlbs-cmpnt-container [type=checkbox]:indeterminate{background-image:url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2016%2016%22%3E%3Cpath%20stroke%3D%22%23fff%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%222%22%20d%3D%22M4%208h8%22%2F%3E%3C%2Fsvg%3E);border-color:transparent;background-color:currentColor;background-size:100% 100%;background-position:50%;background-repeat:no-repeat}body div.brlbs-cmpnt-container [type=checkbox]:indeterminate:focus,body div.brlbs-cmpnt-container [type=checkbox]:indeterminate:hover{border-color:transparent;background-color:currentColor}body div.brlbs-cmpnt-container [type=file]{background:unset;border-color:inherit;border-width:0;border-radius:0;padding:0;font-size:unset;line-height:inherit}:root{--brlbs-tw-border-spacing-x:0;--brlbs-tw-border-spacing-y:0;--brlbs-tw-translate-x:0;--brlbs-tw-translate-y:0;--brlbs-tw-rotate:0;--brlbs-tw-skew-x:0;--brlbs-tw-skew-y:0;--brlbs-tw-scale-x:1;--brlbs-tw-scale-y:1;--brlbs-tw-pan-x:;--brlbs-tw-pan-y:;--brlbs-tw-pinch-zoom:;--brlbs-tw-scroll-snap-strictness:proximity;--brlbs-tw-gradient-from-position:;--brlbs-tw-gradient-via-position:;--brlbs-tw-gradient-to-position:;--brlbs-tw-ordinal:;--brlbs-tw-slashed-zero:;--brlbs-tw-numeric-figure:;--brlbs-tw-numeric-spacing:;--brlbs-tw-numeric-fraction:;--brlbs-tw-ring-inset:;--brlbs-tw-ring-offset-width:0px;--brlbs-tw-ring-offset-color:#fff;--brlbs-tw-ring-color:rgba(59,130,246,.5);--brlbs-tw-ring-offset-shadow:0 0 #0000;--brlbs-tw-ring-shadow:0 0 #0000;--brlbs-tw-shadow:0 0 #0000;--brlbs-tw-shadow-colored:0 0 #0000;--brlbs-tw-blur:;--brlbs-tw-brightness:;--brlbs-tw-contrast:;--brlbs-tw-grayscale:;--brlbs-tw-hue-rotate:;--brlbs-tw-invert:;--brlbs-tw-saturate:;--brlbs-tw-sepia:;--brlbs-tw-drop-shadow:;--brlbs-tw-backdrop-blur:;--brlbs-tw-backdrop-brightness:;--brlbs-tw-backdrop-contrast:;--brlbs-tw-backdrop-grayscale:;--brlbs-tw-backdrop-hue-rotate:;--brlbs-tw-backdrop-invert:;--brlbs-tw-backdrop-opacity:;--brlbs-tw-backdrop-saturate:;--brlbs-tw-backdrop-sepia:;--brlbs-tw-contain-size:;--brlbs-tw-contain-layout:;--brlbs-tw-contain-paint:;--brlbs-tw-contain-style:}::backdrop{--brlbs-tw-border-spacing-x:0;--brlbs-tw-border-spacing-y:0;--brlbs-tw-translate-x:0;--brlbs-tw-translate-y:0;--brlbs-tw-rotate:0;--brlbs-tw-skew-x:0;--brlbs-tw-skew-y:0;--brlbs-tw-scale-x:1;--brlbs-tw-scale-y:1;--brlbs-tw-pan-x:;--brlbs-tw-pan-y:;--brlbs-tw-pinch-zoom:;--brlbs-tw-scroll-snap-strictness:proximity;--brlbs-tw-gradient-from-position:;--brlbs-tw-gradient-via-position:;--brlbs-tw-gradient-to-position:;--brlbs-tw-ordinal:;--brlbs-tw-slashed-zero:;--brlbs-tw-numeric-figure:;--brlbs-tw-numeric-spacing:;--brlbs-tw-numeric-fraction:;--brlbs-tw-ring-inset:;--brlbs-tw-ring-offset-width:0px;--brlbs-tw-ring-offset-color:#fff;--brlbs-tw-ring-color:rgba(59,130,246,.5);--brlbs-tw-ring-offset-shadow:0 0 #0000;--brlbs-tw-ring-shadow:0 0 #0000;--brlbs-tw-shadow:0 0 #0000;--brlbs-tw-shadow-colored:0 0 #0000;--brlbs-tw-blur:;--brlbs-tw-brightness:;--brlbs-tw-contrast:;--brlbs-tw-grayscale:;--brlbs-tw-hue-rotate:;--brlbs-tw-invert:;--brlbs-tw-saturate:;--brlbs-tw-sepia:;--brlbs-tw-drop-shadow:;--brlbs-tw-backdrop-blur:;--brlbs-tw-backdrop-brightness:;--brlbs-tw-backdrop-contrast:;--brlbs-tw-backdrop-grayscale:;--brlbs-tw-backdrop-hue-rotate:;--brlbs-tw-backdrop-invert:;--brlbs-tw-backdrop-opacity:;--brlbs-tw-backdrop-saturate:;--brlbs-tw-backdrop-sepia:;--brlbs-tw-contain-size:;--brlbs-tw-contain-layout:;--brlbs-tw-contain-paint:;--brlbs-tw-contain-style:}.brlbs-cmpnt-container .brlbs-sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border-width:0}.brlbs-cmpnt-container .\!brlbs-hidden{display:none!important}.brlbs-cmpnt-container .brlbs-overflow-auto{overflow:auto}.brlbs-cmpnt-container .brlbs-overflow-hidden{overflow:hidden}.brlbs-cmpnt-container .brlbs-pt-4{padding-top:16px}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker{container-name:brlbsCmpntContentBlocker;container-type:inline-size;line-height:1.25em;height:100%;font-size:var(--content-blocker-font-size);font-family:var(--content-blocker-font-family)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker a{color:var(--content-blocker-link-color)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker a:hover{color:var(--content-blocker-link-color-hover)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker.brlbs-cmpnt-cb-card,body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker.brlbs-cmpnt-cb-provider-card{container-type:normal}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-dialog-cb-details{position:relative;padding:16px;text-align:left}@media(min-width:768px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-dialog-cb-details{padding:24px}}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-dialog-cb-header{display:flex;align-items:center}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-dialog-cb-header.brlbs-cmpnt-with-separator{margin-bottom:16px;border-bottom-width:1px;border-style:solid;padding-bottom:16px}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-dialog-cb-button{display:flex;padding-bottom:16px}@media(min-width:768px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-dialog-cb-button{padding-bottom:24px}}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-a{align-items:center;justify-content:center;padding:16px;text-align:center;background:var(--content-blocker-background-color);border-top-left-radius:var(--content-blocker-border-radius-top-left);border-top-right-radius:var(--content-blocker-border-radius-top-right);border-bottom-left-radius:var(--content-blocker-border-radius-bottom-left);border-bottom-right-radius:var(--content-blocker-border-radius-bottom-right);color:var(--content-blocker-text-color)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-a .brlbs-cmpnt-cb-description{padding-bottom:8px}@media(min-width:640px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-a .brlbs-cmpnt-cb-description{padding-bottom:16px}}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-a .brlbs-cmpnt-cb-description{border-color:var(--content-blocker-separator-color);border-style:solid;border-bottom-width:var(--content-blocker-separator-width)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-a .brlbs-cmpnt-cb-description strong{font-weight:700}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b{position:relative;display:flex;height:100%;padding-top:96px;padding-bottom:96px;text-align:center;background:var(--content-blocker-background-color);border-top-left-radius:var(--content-blocker-border-radius-top-left);border-top-right-radius:var(--content-blocker-border-radius-top-right);border-bottom-left-radius:var(--content-blocker-border-radius-bottom-left);border-bottom-right-radius:var(--content-blocker-border-radius-bottom-right);color:var(--content-blocker-text-color);width:100%}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-main{position:relative;display:flex;width:100%;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:16px}@media(min-width:640px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-main{flex-direction:row;gap:16px}}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-main{background:var(--content-blocker-background);color:var(--content-blocker-text-color)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-content{flex-basis:66.666667%}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-description{padding-bottom:8px}@media(min-width:640px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-description{padding-bottom:16px}}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-description strong{font-weight:700}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-buttons{margin:0;display:flex;flex-basis:33.333333%;flex-direction:column;align-items:stretch;justify-content:center;gap:8px}@media(min-width:640px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-buttons{gap:16px}}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c{position:relative;display:flex;height:100%;text-align:center;background:var(--content-blocker-background-color);border-top-left-radius:var(--content-blocker-border-radius-top-left);border-top-right-radius:var(--content-blocker-border-radius-top-right);border-bottom-left-radius:var(--content-blocker-border-radius-bottom-left);border-bottom-right-radius:var(--content-blocker-border-radius-bottom-right);color:var(--content-blocker-text-color);width:100%}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-main{position:relative;margin:48px;display:flex;width:100%;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:16px}@media(min-width:640px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-main{margin:96px;gap:16px}}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-main{background:var(--content-blocker-background);border-top-left-radius:var(--content-blocker-border-radius-top-left);border-top-right-radius:var(--content-blocker-border-radius-top-right);border-bottom-left-radius:var(--content-blocker-border-radius-bottom-left);border-bottom-right-radius:var(--content-blocker-border-radius-bottom-right);color:var(--content-blocker-text-color)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-description{padding-bottom:8px}@media(min-width:640px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-description{padding-bottom:16px}}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-description strong{font-weight:700}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-buttons{margin:0;display:flex;width:100%;flex-direction:column;align-items:stretch;justify-content:center;gap:8px}@media(min-width:640px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-buttons{gap:16px}}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-play-button{border-radius:50%;background:#fff;box-shadow:0 1px 5px #00000026;width:34px;height:34px;margin:0 auto;display:flex;align-items:center;justify-content:center;position:absolute;top:-17px;left:calc(50% - 17px)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-play-button:before{background:url(data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2278%22%20height%3D%2278%22%20viewBox%3D%220%200%2078%2078%22%3E%3Cpath%20d%3D%22M7.5%2071.5v-64l48%2030.328z%22%2F%3E%3Cpath%20fill%3D%22none%22%20stroke%3D%22%23000%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%20stroke-width%3D%2212%22%20d%3D%22M7.5%2071.5v-64l48%2030.328z%22%2F%3E%3C%2Fsvg%3E) no-repeat 50%;background-size:contain;content:" ";margin-left:4px;display:inline-block;height:1.142857143em;width:.857142857em}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-thumbnail{position:absolute;top:0;left:0;height:100%;width:100%;background-size:cover;background-position:50%;border-top-left-radius:var(--content-blocker-border-radius-top-left);border-top-right-radius:var(--content-blocker-border-radius-top-right);border-bottom-left-radius:var(--content-blocker-border-radius-bottom-left);border-bottom-right-radius:var(--content-blocker-border-radius-bottom-right)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-buttons{margin-top:8px;margin-bottom:8px;display:flex;flex-direction:column;align-items:stretch;justify-content:center;gap:8px}@media(min-width:640px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-buttons{margin-top:16px;margin-bottom:16px;flex-direction:row;gap:16px}}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-buttons .brlbs-cmpnt-cb-btn{display:flex;width:100%;align-items:center;justify-content:center;text-decoration-line:none}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d){position:fixed;height:auto}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-position\[top-left\]),body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-position\[top-right\]){top:var(--content-blocker-icon-margin)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-position\[bottom-left\]),body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-position\[bottom-right\]){bottom:var(--content-blocker-icon-margin)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-position\[bottom-right\]),body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-position\[top-right\]){right:calc(var(--content-blocker-icon-width) + var(--content-blocker-icon-margin))}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-position\[bottom-left\]),body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-position\[top-left\]){left:var(--content-blocker-icon-margin)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-display\[flex\]){position:relative;display:inline-block;display:flex}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-position\[float-left\]){float:left}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker:has(.brlbs-cmpnt-cb-preset-d):has(.brlbs-cmpnt-cb-icon-position\[float-right\]){float:right}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-d .brlbs-cmpnt-cb-icon{display:inline-block;height:var(--content-blocker-icon-height);width:var(--content-blocker-icon-width)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-description-list{display:table}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-description-list>div{display:table-row}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-description-list dt{font-weight:700}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-description-list dd,body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-description-list dt{display:table-cell;padding:2px 4px}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker a.brlbs-cmpnt-cb-btn{all:unset;box-sizing:border-box;cursor:pointer;align-items:center;justify-content:center;padding:12px 20px;text-align:center;font-size:var(--dialog-font-size);line-height:calc(1.5 * var(--dialog-font-size));font-weight:600;text-decoration-line:none;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.4s;border-top-left-radius:var(--content-blocker-button-border-radius-top-left);border-top-right-radius:var(--content-blocker-button-border-radius-top-right);border-bottom-left-radius:var(--content-blocker-button-border-radius-bottom-left);border-bottom-right-radius:var(--content-blocker-button-border-radius-bottom-right);background-color:var(--content-blocker-button-color);color:var(--content-blocker-button-text-color)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker a.brlbs-cmpnt-cb-btn:hover{background-color:var(--content-blocker-button-color-hover);color:var(--content-blocker-button-text-color-hover)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker a.brlbs-cmpnt-cb-btn:active,body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker a.brlbs-cmpnt-cb-btn:focus{outline:2px solid transparent;outline-offset:2px;--brlbs-tw-ring-offset-shadow:var(--brlbs-tw-ring-inset) 0 0 0 var(--brlbs-tw-ring-offset-width) var(--brlbs-tw-ring-offset-color);--brlbs-tw-ring-shadow:var(--brlbs-tw-ring-inset) 0 0 0 calc(2px + var(--brlbs-tw-ring-offset-width)) var(--brlbs-tw-ring-color);box-shadow:var(--brlbs-tw-ring-offset-shadow),var(--brlbs-tw-ring-shadow),var(--brlbs-tw-shadow,0 0 #0000)}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker a.brlbs-cmpnt-cb-provider-toggle{all:unset;box-sizing:border-box;color:var(--content-blocker-link-color);cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration-line:none}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker a.brlbs-cmpnt-cb-provider-toggle:hover{all:unset;box-sizing:border-box;color:var(--content-blocker-link-color-hover);cursor:pointer;display:flex;align-items:center;justify-content:center;text-decoration-line:none}@container brlbsCmpntContentBlocker (480px <= width < 620px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b{padding-top:12%;padding-bottom:12%}}@container brlbsCmpntContentBlocker (width < 480px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b{padding:0}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-main{margin:6%;flex-direction:column;gap:8px;justify-content:normal;overflow:auto}}@container brlbsCmpntContentBlocker (640px <= width < 750px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-main{margin:10%!important}}@container brlbsCmpntContentBlocker (540px <= width < 640px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-main{margin:6%!important}}@container brlbsCmpntContentBlocker (width < 540px){body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker{position:static}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-main{gap:8px;margin:6%!important;justify-content:normal;overflow:auto}body .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-main .brlbs-cmpnt-cb-play-button{display:none}}@container brlbsCmpntContentBlocker (width < 375px){.wp-embed-aspect-16-9 .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-main,.wp-embed-aspect-16-9 .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-main{height:100%;justify-content:normal;overflow:auto}.wp-embed-aspect-16-9 .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-b .brlbs-cmpnt-cb-main .brlbs-cmpnt-cb-play-button,.wp-embed-aspect-16-9 .brlbs-cmpnt-container.brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-preset-c .brlbs-cmpnt-cb-main .brlbs-cmpnt-cb-play-button{display:none}}.wp-embed-aspect-16-9:has(.brlbs-cmpnt-container.brlbs-cmpnt-content-blocker) div.wp-block-embed__wrapper{padding:0}.wp-embed-aspect-16-9:has(.brlbs-cmpnt-container.brlbs-cmpnt-content-blocker) div.wp-block-embed__wrapper:before{padding:0}#BorlabsCookieBox,.brlbs-cmpnt-container{font-family:var(--dialog-font-family);font-weight:400;line-height:calc(1.2 * var(--dialog-font-size))}body .brlbs-cmpnt-container.brlbs-cmpnt-shortcode-element{container-name:brlbsCmpntShortcodeElement;container-type:inline-size;line-height:1.25em;height:100%}body .brlbs-cmpnt-container.brlbs-cmpnt-shortcode-element .brlbs-cmpnt-description-list{display:table}body .brlbs-cmpnt-container.brlbs-cmpnt-shortcode-element .brlbs-cmpnt-description-list>div{display:table-row}body .brlbs-cmpnt-container.brlbs-cmpnt-shortcode-element .brlbs-cmpnt-description-list dt{font-weight:700}body .brlbs-cmpnt-container.brlbs-cmpnt-shortcode-element .brlbs-cmpnt-description-list dd,body .brlbs-cmpnt-container.brlbs-cmpnt-shortcode-element .brlbs-cmpnt-description-list dt{display:table-cell;padding:2px 4px}
+@container brlbsCmpntContentBlocker (width >= 480px) {
+	body .brlbs-cmpnt-cb-cf7-recaptcha {
+		max-height: 150px;
+	}
+}
+
+body .brlbs-cmpnt-cb-cf7-recaptcha .brlbs-cmpnt-cb-thumbnail {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+body .brlbs-cmpnt-cb-preset-b.brlbs-cmpnt-cb-cf7-recaptcha { box-sizing: border-box; padding: 0}
+body .brlbs-cmpnt-cb-cf7-recaptcha .brlbs-cmpnt-cb-main { margin-top: auto; margin-bottom: auto; }body .brlbs-cmpnt-cb-google-maps-enfold .brlbs-cmpnt-cb-btn {
+	background: #4285f4;
+	border-radius: 3px;
+}
+
+body .brlbs-cmpnt-cb-google-maps-enfold .brlbs-cmpnt-cb-btn:hover {
+	background: #fff;
+	color: #4285f4;
+}@container brlbsCmpntContentBlocker (width >= 480px) {
+	body .brlbs-cmpnt-cb-enfold-recaptcha {
+		max-height: 150px;
+	}
+}
+
+body .brlbs-cmpnt-cb-enfold-recaptcha .brlbs-cmpnt-cb-thumbnail {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+body .brlbs-cmpnt-cb-preset-b.brlbs-cmpnt-cb-enfold-recaptcha { box-sizing: border-box; padding: 0}
+body .brlbs-cmpnt-cb-enfold-recaptcha .brlbs-cmpnt-cb-main { margin-top: auto; margin-bottom: auto; }body .brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-google-maps-tec {
+	background: none;
+}
+
+body .brlbs-cmpnt-content-blocker .brlbs-cmpnt-cb-google-maps-tec {
+	position: relative;
+}
+
+body .brlbs-cmpnt-cb-google-maps-tec .brlbs-cmpnt-cb-thumbnail {
+	z-index: -1;
+}
+
+body .brlbs-cmpnt-cb-google-maps-tec .brlbs-cmpnt-cb-btn {
+	background: #4285f4;
+	border-radius: 3px;
+}
+
+body .brlbs-cmpnt-cb-google-maps-tec .brlbs-cmpnt-cb-btn:hover {
+	background: #fff;
+	color: #4285f4;
+}
+
+body .brlbs-cmpnt-cb-google-maps-tec .brlbs-cmpnt-cb-buttons {
+	flex-direction: column;
+}:root{--content-blocker-background-color: #fafafa;
+--content-blocker-button-color: #0063e3;
+--content-blocker-button-color-hover: #1a66ff;
+--content-blocker-button-text-color: #fff;
+--content-blocker-button-text-color-hover: #fff;
+--content-blocker-font-family: inherit;
+--content-blocker-link-color: #2563eb;
+--content-blocker-link-color-hover: #1e40af;
+--content-blocker-separator-color: #e5e5e5;
+--content-blocker-text-color: #555;
+--content-blocker-border-radius-top-left: 4px;
+--content-blocker-border-radius-top-right: 4px;
+--content-blocker-border-radius-bottom-left: 4px;
+--content-blocker-border-radius-bottom-right: 4px;
+--content-blocker-button-border-radius-top-left: 4px;
+--content-blocker-button-border-radius-top-right: 4px;
+--content-blocker-button-border-radius-bottom-left: 4px;
+--content-blocker-button-border-radius-bottom-right: 4px;
+--content-blocker-font-size: 14px;
+--content-blocker-separator-width: 1px;
+--content-blocker-background-opacity: 0.85;
+--content-blocker-background: rgba(250, 250, 250 ,0.85);
+}
+
+/*# sourceURL=borlabs-cookie-critical-inline-css */
+</style>
+<link onload="this.media='all';this.onload=null" data-borlabs-cookie-deferred-style="1" rel='stylesheet' id='borlabs-cookie-custom-css' href='https://www.senertec.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-1-de.css?ver=3.5.0-48' media="print" />
+<noscript><link rel='stylesheet' id='borlabs-cookie-custom-css' href='https://www.senertec.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-1-de.css?ver=3.5.0-48' media='all' />
+</noscript>
+<link rel='stylesheet' id='avia-events-cal-css' href='https://www.senertec.de/wp-content/themes/enfold/config-events-calendar/event-mod.css?ver=7.0.8' media='all' />
+<link rel='stylesheet' id='senertec-css' href='https://www.senertec.de/wp-content/themes/senertec-child-design/css/custom.css?ver=6.8.1a' media='all' />
+<link rel='stylesheet' id='wcag-css' href='https://www.senertec.de/wp-content/themes/senertec-child-design/assets/css/wcag.css?ver=1794154854' media='all' />
+<script id="jquery-core-js" src="https://www.senertec.de/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"></script>
+<script id="jquery-migrate-js" src="https://www.senertec.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"></script>
+<script data-no-optimize="1" data-no-minify="1" data-cfasync="false" id="borlabs-cookie-config-js" src="https://www.senertec.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-config-de.json.js?ver=3.5.0-114"></script>
+<script data-no-optimize="1" data-no-minify="1" data-cfasync="false" id="borlabs-cookie-prioritize-js" src="https://www.senertec.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie-prioritize.min.js?ver=3.5.0"></script>
+<script id="senertec_calendar-js" src="https://www.senertec.de/wp-content/themes/senertec-child-design/assets/js/senertec_calendar.js?ver=7.0.8"></script>
+<script id="wcag-js" src="https://www.senertec.de/wp-content/themes/senertec-child-design/assets/js/wcag.js?ver=7.0.8"></script>
+<script id="avia-head-scripts-js" src="https://www.senertec.de/wp-content/uploads/dynamic_avia/avia-head-scripts-f05bb890656901ce38bba1f658810e06.js"></script>
+<script data-borlabs-cookie-script-blocker-ignore>
+	document.addEventListener('borlabs-cookie-google-tag-manager-after-consents', function () {
+        window.BorlabsCookie.Unblock.unblockScriptBlockerId('gtmfourwp-custom-events');
+    });
+</script><link rel="https://api.w.org/" href="https://www.senertec.de/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.senertec.de/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 7.0.8" />
+<meta name="tec-api-version" content="v1"><meta name="tec-api-origin" content="https://www.senertec.de"><link rel="alternate" href="https://www.senertec.de/wp-json/tribe/events/v1/" /><!--<script type="text/javascript" src="//fast.fonts.net/jsapi/e8c44863-35ae-40f5-9a93-9c63d81a85c5.js"></script>-->
+<link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="alternate" type="application/rss+xml" title="Der Dachs. RSS2 Feed" href="https://www.senertec.de/feed/" />
+<link rel="pingback" href="https://www.senertec.de/xmlrpc.php" />
+<!--[if lt IE 9]><script src="https://www.senertec.de/wp-content/themes/enfold/js/html5shiv.js"></script><![endif]-->
+<link rel="icon" href="https://www.senertec.de/wp-content/uploads/2026/07/favicon-96x96-1.png" type="image/png">
+
+<!-- To speed up the rendering and to display the site as fast as possible to the user we include some styles and scripts for above the fold content inline -->
+<script type="text/javascript">'use strict';var avia_is_mobile=!1;if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)&&'ontouchstart' in document.documentElement){avia_is_mobile=!0;document.documentElement.className+=' avia_mobile '}
+else{document.documentElement.className+=' avia_desktop '};document.documentElement.className+=' js_active ';(function(){var e=['-webkit-','-moz-','-ms-',''],n='';for(var t in e){if(e[t]+'transform' in document.documentElement.style){document.documentElement.className+=' avia_transform ';n=e[t]+'transform'};if(e[t]+'perspective' in document.documentElement.style)document.documentElement.className+=' avia_transform3d '};if(typeof document.getElementsByClassName=='function'&&typeof document.documentElement.getBoundingClientRect=='function'&&avia_is_mobile==!1){if(n&&window.innerHeight>0){setTimeout(function(){var e=0,o={},a=0,t=document.getElementsByClassName('av-parallax'),i=window.pageYOffset||document.documentElement.scrollTop;for(e=0;e<t.length;e++){t[e].style.top='0px';o=t[e].getBoundingClientRect();a=Math.ceil((window.innerHeight+i-o.top)*0.3);t[e].style[n]='translate(0px, '+a+'px)';t[e].style.top='auto';t[e].className+=' enabled-parallax '}},50)}}})();</script><style type='text/css'>
+@font-face {font-family: 'entypo-fontello'; font-weight: normal; font-style: normal;
+src: url('https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot');
+src: url('https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.eot?#iefix') format('embedded-opentype'), 
+url('https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.woff') format('woff'), 
+url('https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.ttf') format('truetype'), 
+url('https://www.senertec.de/wp-content/themes/enfold/config-templatebuilder/avia-template-builder/assets/fonts/entypo-fontello.svg#entypo-fontello') format('svg');
+} #top .avia-font-entypo-fontello, body .avia-font-entypo-fontello, html body [data-av_iconfont='entypo-fontello']:before{ font-family: 'entypo-fontello'; }
+</style>
+
+<link rel='stylesheet' id='wptgg_lib/animate-css' href='https://www.senertec.de/wp-content/plugins/wp_trigger/css/lib/animate.css?ver=7.0.8' media='all' />
+
+</head>
+<body id="top" class="error404 wp-theme-enfold wp-child-theme-senertec-child-design rtl_columns stretched arial-black-websave arial_black verdana-websave verdana tribe-no-js" itemscope="itemscope" itemtype="https://schema.org/WebPage" >
+
+
+	<a href="#main" class="skip-to-content" style="text-decoration: none;position: absolute;left: 0;top: -200px;right: 0;z-index: 999;width: max-content;padding: 12px 24px;margin: auto;border-radius: 100px;box-shadow: 0 4px 20px #0003;background: #fff;">Zum Hauptinhalt</a><!-- fuer Mobile Sticky Contact Button -->
+<div class="mobile-fixed-footer">
+  <a href="https://www.senertec.de/kontakt/" title="Kontakt" id="BKontakt" class="l"> Zum Kontakt </a>
+  <a href="https://www.senertec.de/die-dachs-familie/#produktsuche" title="Produktsuche" id="BProdukt" class="r"> Zur Produktsuche </a>
+</div>
+	
+<!-- fuer Desktop Sticky Contact Button -->
+<div class="desktop-sticky-widget left">
+  <a href="/kontakt/" title="Kostenlose Beratung">
+    Kostenlose Beratung
+  </a>
+</div>
+
+<div class="desktop-sticky-widget right">
+  <a href="/die-dachs-familie/#produktsuche" title="Produktsuche">
+    Produktsuche
+  </a>
+</div>
+	<div id='wrap_all'>
+
+	
+<header id='header' class='all_colors header_color light_bg_color  av_header_top av_logo_left av_main_nav_header av_menu_right av_slim av_header_sticky av_header_shrinking_disabled av_header_stretch av_mobile_menu_tablet av_header_searchicon av_header_unstick_top av_bottom_nav_disabled  av_header_border_disabled'  role="banner" itemscope="itemscope" itemtype="https://schema.org/WPHeader" >
+
+		<div id='header_meta' class='container_wrap container_wrap_meta  av_icon_active_main av_phone_active_right av_extra_header_active'>
+		
+			      <div class='container'>
+			      <div class='phone-info '><span><span style="text-decoration: underline; color:#005545;">Deutsch</span> | <a href="http://www.senertec.com" target="_blank" alt="Visit our international site" style="margin-right:50px;" text-decoration:"none";>English</a></span></div>			      </div>
+		</div>
+
+		<div  id='header_main' class='container_wrap container_wrap_logo'>
+	
+        <div class='container av-logo-container'><div class='inner-container'><span class='logo'><a href='https://www.senertec.de/'><img height='100' width='300' src='https://www.senertec.de/wp-content/uploads/2017/01/Logo-Dachs-Senertec.png' alt='Der Dachs.' /></a></span><nav class='main_menu' data-selectname='Seite auswählen'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia-menu av-main-nav-wrap av_menu_icon_beside"><ul id="avia-menu" class="menu av-main-nav"><li id="menu-item-28220" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-top-level menu-item-top-level-1"><a href="https://www.senertec.de/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Start</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-995" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-top-level menu-item-top-level-2"><a title="Dachs Produkte" href="https://www.senertec.de/die-dachs-familie/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Produkte</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li id="menu-item-996" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/die-dachs-familie/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Alle Produkte</span></a></li>
+	<li id="menu-item-23259" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/hyperdachs/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Der HyPer Dachs</span></a></li>
+	<li id="menu-item-7270" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/dachs-20-0/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Der Dachs 20.0</span></a></li>
+	<li id="menu-item-11256" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/dachs-5-5/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Der Dachs 5.5</span></a></li>
+	<li id="menu-item-11875" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/dachs-2-9/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Der Dachs 2.9</span></a></li>
+	<li id="menu-item-25252" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/batteriespeicher/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Batteriespeicher</span></a></li>
+	<li id="menu-item-14720" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/keba/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">E-Ladestation</span></a></li>
+	<li id="menu-item-18584" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/dachsportal/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Energiemanager</span></a></li>
+	<li id="menu-item-26291" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/polarstern/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">GEG-Ökogas</span></a></li>
+	<li id="menu-item-19009" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/primagas/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">BioLPG</span></a></li>
+	<li id="menu-item-15054" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/dachs-quick-check/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Dachs-Check: Welcher Dachs passt zu mir?</span></a></li>
+</ul>
+</li>
+<li id="menu-item-28695" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-3"><a href="https://www.senertec.de/dachs-gewerbe/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Gewerbe</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-23748" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-mega-parent  menu-item-top-level menu-item-top-level-4"><a href="https://www.senertec.de/mehrfamilienhaus/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Mehrfamilienhaus</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-17672" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-top-level menu-item-top-level-5"><a href="https://www.senertec.de/info-service/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Info &#038; Service</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a>
+
+
+<ul class="sub-menu">
+	<li id="menu-item-15897" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/ueber-uns/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Über uns</span></a></li>
+	<li id="menu-item-25570" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/blog/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Blog</span></a></li>
+	<li id="menu-item-17675" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/service-dachs-betreiber/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Service für Betreiber</span></a></li>
+	<li id="menu-item-1224" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/service-partner/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Service für Partner</span></a></li>
+	<li id="menu-item-17346" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="https://www.senertec.de/typo3/planer/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Service für Planer</span></a></li>
+	<li id="menu-item-17838" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/center-suche/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Fachpartner finden</span></a></li>
+	<li id="menu-item-1253" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://www.senertec.de/presse/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Presse</span></a></li>
+</ul>
+</li>
+<li id="menu-item-309" class="menu-item menu-item-type-custom menu-item-object-custom av-menu-button av-menu-button-colored menu-item-mega-parent  menu-item-top-level menu-item-top-level-6"><a href="/kontakt" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Kostenlos beraten lassen!</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-308" class="menu-item menu-item-type-custom menu-item-object-custom av-menu-button av-menu-button-bordered menu-item-mega-parent  menu-item-top-level menu-item-top-level-7"><a href="https://planer.senertec.de" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">LogIn Planer &#038; Partner</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-search" class="noMobile menu-item menu-item-search-dropdown menu-item-avia-special">
+							<a href="?s=" data-avia-search-tooltip="
+
+&lt;form action=&quot;https://www.senertec.de/&quot; id=&quot;searchform&quot; method=&quot;get&quot; class=&quot;&quot;&gt;
+	&lt;div&gt;
+		&lt;input type=&quot;submit&quot; value=&quot;&quot; id=&quot;searchsubmit&quot; class=&quot;button avia-font-entypo-fontello&quot; /&gt;
+		&lt;input type=&quot;text&quot; id=&quot;s&quot; name=&quot;s&quot; value=&quot;&quot; placeholder=&#039;Suche&#039; /&gt;
+			&lt;/div&gt;
+&lt;/form&gt;" aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Suche</span></a>
+	        		   </li><li class="av-burger-menu-main menu-item-avia-special ">
+	        			<a href="#">
+							<span class="av-hamburger av-hamburger--spin av-js-hamburger">
+					        <span class="av-hamburger-box">
+						          <span class="av-hamburger-inner"></span>
+						          <strong>Menü</strong>
+					        </span>
+							</span>
+						</a>
+	        		   </li></ul></div><ul class='noLightbox social_bookmarks icon_count_2'><li class='social_bookmarks_facebook av-social-link-facebook social_icon_1'><a target='_blank' href='https://www.facebook.com/DerDachs' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' title='Facebook'><span class='avia_hidden_link_text'>Facebook</span></a></li><li class='social_bookmarks_youtube av-social-link-youtube social_icon_2'><a target='_blank' href='https://www.youtube.com/@senertec-derdachs4510' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' title='Youtube'><span class='avia_hidden_link_text'>Youtube</span></a></li></ul></nav></div> </div> 
+		<!-- end container_wrap-->
+		</div>
+		
+		<div class='header_bg'></div>
+
+<!-- end header -->
+</header>
+		
+	<div id='main' class='all_colors' data-scroll-offset='88'>
+
+	
+
+		<div class='container_wrap container_wrap_first main_color fullsize'>
+			
+						
+			<div class='container'>
+
+				<main class='template-page content av-content-full alpha units'  role="main" itemprop="mainContentOfPage" >
+
+
+                    <div class="entry entry-content-wrapper clearfix" id='search-fail'>
+                    
+<p class='entry-content'><strong>Es konnte leider nichts gefunden werden</strong><br/>
+
+Entschuldigung, aber der gesuchte Eintrag ist nicht verfügbar. Willst Du eine neue Suche starten?</p>
+
+
+<form action="https://www.senertec.de/" id="searchform" method="get" class="">
+	<div>
+		<input type="submit" value="" id="searchsubmit" class="button avia-font-entypo-fontello" />
+		<input type="text" id="s" name="s" value="" placeholder='Suche' />
+			</div>
+</form>
+
+
+<div class='hr_invisible'></div>
+
+<section class="404_recommendation">
+    <p><strong>Um die besten Suchergebnisse zu erhalten, beachte bitte folgende Hinweise:</strong></p>
+    <ul class='borderlist-not'>
+        <li>Überprüfe die Rechtschreibung immer sorgfältig.</li>
+        <li>Versuchen Sie es mit einem ähnlichen Suchbegriff: z.B. Tablet anstelle von Laptop.</li>
+        <li>Versuche mehr als einen Suchbegriff zu verwenden.</li>
+    </ul>
+
+    <div class='hr_invisible'></div>
+
+    </section>
+                    </div>
+
+				<!--end content-->
+				</main>
+
+				
+			</div><!--end container-->
+
+		</div><!-- close default .container_wrap element -->
+
+
+
+
+						<div class='container_wrap footer_color' id='footer'>
+
+					<div class='container'>
+
+						<div class='flex_column av_one_third  first el_before_av_one_third'><section id="text-6" class="widget clearfix widget_text"><h3 class="widgettitle">Links</h3>			<div class="textwidget"><p><a href="http://senertec.de/presse/">Presse Newsroom</a><br />
+<a href="https://planer.senertec.de" target="_blank" rel="noopener">Planer / Energieberater</a><br />
+<a href="https://partner.senertec.de" target="_blank" rel="noopener">Partnerbereich</a><br />
+<a href="https://dachsportal.senertec.com/" target="_blank" rel="noopener">Dachs Portal (Gen1)</a><br />
+<a href="https://dachsconnect.senertec.com/" target="_blank" rel="noopener">Dachs Portal2 (Gen2)</a><br />
+<a href="http://www.dachsfanclub.de/" target="_blank" rel="noopener">Dachs Fan Club</a></p>
+</div>
+		<span class="seperator extralight-border"></span></section><section id="text-2" class="widget clearfix widget_text"><h3 class="widgettitle">Links</h3>			<div class="textwidget"><p><span class="av_font_icon avia_animate_when_visible  av-icon-style-  avia-icon-pos-left " style="color:#ffffff; border-color:#ffffff;"><a href='https://www.facebook.com/DerDachs'  target="_blank"   class='av-icon-char' style='font-size:24px;line-height:24px;' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' data-avia-icon-tooltip="Facebook"></a></span><br />
+</p>
+<p><span class="av_font_icon avia_animate_when_visible  av-icon-style-  avia-icon-pos-left " style="color:#ffffff; border-color:#ffffff;"><a href='https://www.youtube.com/@senertec-derdachs4510'  target="_blank"   class='av-icon-char' style='font-size:24px;line-height:24px;' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' data-avia-icon-tooltip="Youtube"></a></span></p>
+</div>
+		<span class="seperator extralight-border"></span></section></div><div class='flex_column av_one_third  el_after_av_one_third  el_before_av_one_third '><section id="text-4" class="widget clearfix widget_text"><h3 class="widgettitle">Kontakt</h3>			<div class="textwidget"><p>Telefon: 0 9721 651 0<br />
+Fax: 0 9721 651 272<br />
+E-Mail: <a href="&#109;&#x61;&#105;&#x6c;&#116;&#x6f;&#58;&#x69;&#110;&#x66;&#111;&#x40;&#115;&#x65;&#110;&#x65;&#114;&#x74;&#101;&#x63;&#46;&#x64;&#101;">info&#64;senerte&#99;&#46;&#100;&#101;</a><br />
+Internet: <a href="http://www.senertec.de">www.senertec.de</a></p>
+</div>
+		<span class="seperator extralight-border"></span></section></div><div class='flex_column av_one_third  el_after_av_one_third  el_before_av_one_third '><section id="text-5" class="widget clearfix widget_text"><h3 class="widgettitle">Anschrift</h3>			<div class="textwidget"><p>SenerTec<br />
+Kraft-Wärme-Energiesysteme GmbH<br />
+Carl-Zeiss-Straße 18<br />
+97424 Schweinfurt</p>
+</div>
+		<span class="seperator extralight-border"></span></section></div>
+
+					</div>
+
+
+				<!-- ####### END FOOTER CONTAINER ####### -->
+				</div>
+
+	
+
+
+			
+
+			
+				<footer class='container_wrap socket_color' id='socket'  role="contentinfo" itemscope="itemscope" itemtype="https://schema.org/WPFooter" >
+                    <div class='container'>
+
+                        <span class='copyright'>© SenerTec Kraft-Wärme-Energiesysteme GmbH | Part of BDR Thermea</span>
+
+                        <ul class='noLightbox social_bookmarks icon_count_2'><li class='social_bookmarks_facebook av-social-link-facebook social_icon_1'><a target='_blank' href='https://www.facebook.com/DerDachs' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' title='Facebook'><span class='avia_hidden_link_text'>Facebook</span></a></li><li class='social_bookmarks_youtube av-social-link-youtube social_icon_2'><a target='_blank' href='https://www.youtube.com/@senertec-derdachs4510' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello' title='Youtube'><span class='avia_hidden_link_text'>Youtube</span></a></li></ul><nav class='sub_menu_socket'  role="navigation" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" ><div class="avia3-menu"><ul id="avia3-menu" class="menu"><li id="menu-item-583" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-1"><a href="https://www.senertec.de/kontakt/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Kontakt</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-15891" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-top-level menu-item-top-level-2"><a href="//senertec.de/datenschutz/#cookie" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Cookies und Tracking</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-7260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy menu-item-top-level menu-item-top-level-3"><a href="https://www.senertec.de/datenschutz/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Datenschutz</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+<li id="menu-item-582" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-top-level menu-item-top-level-4"><a href="https://www.senertec.de/impressum/" itemprop="url"><span class="avia-bullet"></span><span class="avia-menu-text">Impressum</span><span class="avia-menu-fx"><span class="avia-arrow-wrap"><span class="avia-arrow"></span></span></span></a></li>
+</ul></div></nav>
+                    </div>
+
+	            <!-- ####### END SOCKET CONTAINER ####### -->
+				</footer>
+
+
+					<!-- end main -->
+		</div>
+		
+		<!-- end wrap_all --></div>
+
+<a href='#top' title='Nach oben scrollen' id='scroll-top-link' aria-hidden='true' data-av_icon='' data-av_iconfont='entypo-fontello'><span class="avia_hidden_link_text">Nach oben scrollen</span></a>
+
+<div id="fb-root"></div>
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/senertec-child-design/*","/wp-content/themes/enfold/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<!-- Matomo --><script type="text/javascript">
+var _paq = window._paq = window._paq || [];
+_paq.push(['requireConsent']);
+_paq.push(['disableCookies']);_paq.push(['trackPageView']);_paq.push(['enableLinkTracking']);_paq.push(['alwaysUseSendBeacon']);_paq.push(['setTrackerUrl', "\/\/www.senertec.de\/wp-content\/plugins\/matomo\/app\/matomo.php"]);_paq.push(['setSiteId', '1']);var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+g.type='text/javascript'; g.async=true; g.src="\/\/www.senertec.de\/wp-content\/uploads\/matomo\/matomo.js"; s.parentNode.insertBefore(g,s);
+</script>
+<!-- End Matomo Code --><style>						.wptgg_loading{							background-image: url( 'https://www.senertec.de/wp-content/plugins/wp_trigger/img/ajax-loader.gif' ) ;							padding:0px 7px;							background-repeat: no-repeat;						}					</style><script type='text/javascript'>var wptgg_ajaxurl = 'https://www.senertec.de/wp-admin/admin-ajax.php'</script>		<script>
+		( function ( body ) {
+			'use strict';
+			body.className = body.className.replace( /\btribe-no-js\b/, 'tribe-js' );
+		} )( document.body );
+		</script>
+		    <script>
+        (function ($) {
+            $(window).load(function () {
+                $('.inline_popup').magnificPopup({type: 'inline', midClick: true});
+            });
+            $(document).ready(function () {
+                $('.wpcf7-list-item-label').html(function (index, html) {
+                    return html.replace('CO2', 'CO<sub>2</sub>');
+                });
+            });
+        })(jQuery);
+    </script>
+    <script type="text/javascript">
+        document.addEventListener('wpcf7mailsent', function (event) {
+            if ('11834' == event.detail.contactFormId) {
+                location = 'https://www.senertec.de/der-dachs/i-love-dachs-bestaetigung/';
+            } else {
+                location = 'https://www.senertec.de/';
+            }
+        }, false);
+    </script>
+    <script>
+        jQuery(window).load(function () {
+
+            if (jQuery('form[data-avia-form-id="1"]').length === 0 || jQuery('form[data-avia-form-id="1"]').not(':visible').length == 1) {
+                jQuery('.contact-box a', '.template-single-blog').attr('href', 'https://www.senertec.de/kontakt-blog/');
+            } else {
+                if (jQuery('form[data-avia-form-id="1"]').prevAll('.hr,.av-special-heading').length > 0) {
+                    jQuery('form[data-avia-form-id="1"]').prevAll('.hr,.av-special-heading').first().attr('id', 'kontakt-form');
+                } else {
+                    jQuery('<div id="kontakt-form" style="padding-top: 86px; margin-top: -86px;">').insertBefore(jQuery('form[data-avia-form-id="1"]'));
+                }
+            }
+        });
+    </script>
+    
+ <script type='text/javascript'>
+ /* <![CDATA[ */  
+var avia_framework_globals = avia_framework_globals || {};
+    avia_framework_globals.frameworkUrl = 'https://www.senertec.de/wp-content/themes/enfold/framework/';
+    avia_framework_globals.installedAt = 'https://www.senertec.de/wp-content/themes/enfold/';
+    avia_framework_globals.ajaxurl = 'https://www.senertec.de/wp-admin/admin-ajax.php';
+/* ]]> */ 
+</script>
+ 
+ <script data-cfasync="false" data-no-minify="1" data-no-optimize="1" id="borlabs-cookie-core-js-module" src="https://www.senertec.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie.min.js?ver=3.5.0" type="module"></script>
+<!--googleoff: all--><div data-nosnippet data-borlabs-cookie-consent-required='true' id='BorlabsCookieBox'></div><div id='BorlabsCookieWidget' class='brlbs-cmpnt-container'></div><!--googleon: all--><script> /* <![CDATA[ */var tribe_l10n_datatables = {"aria":{"sort_ascending":": activate to sort column ascending","sort_descending":": activate to sort column descending"},"length_menu":"Show _MENU_ entries","empty_table":"No data available in table","info":"Showing _START_ to _END_ of _TOTAL_ entries","info_empty":"Showing 0 to 0 of 0 entries","info_filtered":"(filtered from _MAX_ total entries)","zero_records":"No matching records found","search":"Search:","all_selected_text":"All items on this page were selected. ","select_all_link":"Select all pages","clear_selection":"Clear Selection.","pagination":{"all":"All","next":"Next","previous":"Previous"},"select":{"rows":{"0":"","_":": Selected %d rows","1":": Selected 1 row"}},"datepicker":{"dayNames":["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"],"dayNamesShort":["So.","Mo.","Di.","Mi.","Do.","Fr.","Sa."],"dayNamesMin":["S","M","D","M","D","F","S"],"monthNames":["Januar","Februar","M\u00e4rz","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"monthNamesShort":["Januar","Februar","M\u00e4rz","April","Mai","Juni","Juli","August","September","Oktober","November","Dezember"],"monthNamesMin":["Jan.","Feb.","M\u00e4rz","Apr.","Mai","Juni","Juli","Aug.","Sep.","Okt.","Nov.","Dez."],"nextText":"Next","prevText":"Prev","currentText":"Today","closeText":"Done","today":"Today","clear":"Clear"}};/* ]]> */ </script><script id="senertec-event-slider-js" src="https://www.senertec.de/wp-content/themes/senertec-child-design/shortcodes/senertec_events.js?ver=7.0.8"></script>
+<script id="tec-user-agent-js" src="https://www.senertec.de/wp-content/plugins/the-events-calendar/common/build/js/user-agent.js?ver=da75d0bdea6dde3898df"></script>
+<script id="c3-accessibility-js" type="module" src="https://www.senertec.de/wp-content/plugins/c3-accessibility/assets/js/accesibility.js?ver=1777380677"></script>
+<script id="wp-hooks-js" src="https://www.senertec.de/wp-includes/js/dist/hooks.min.js?ver=7496969728ca0f95732d"></script>
+<script id="wp-i18n-js" src="https://www.senertec.de/wp-includes/js/dist/i18n.min.js?ver=781d11515ad3d91786ec"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+</script>
+<script id="swv-js" src="https://www.senertec.de/wp-content/plugins/contact-form-7/includes/swv/js/index.js?ver=6.1.6"></script>
+<script id="contact-form-7-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "contact-form-7", {"translation-revision-date":"2026-06-28 19:30:34+0000","generator":"GlotPress\/4.0.3","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"de"},"This contact form is placed in the wrong place.":["Dieses Kontaktformular wurde an der falschen Stelle platziert."],"Error:":["Fehler:"]}},"comment":{"reference":"includes\/js\/index.js"}} );
+//# sourceURL=contact-form-7-js-translations
+</script>
+<script id="contact-form-7-js-before">
+var wpcf7 = {
+    "api": {
+        "root": "https:\/\/www.senertec.de\/wp-json\/",
+        "namespace": "contact-form-7\/v1"
+    }
+};
+//# sourceURL=contact-form-7-js-before
+</script>
+<script id="contact-form-7-js" src="https://www.senertec.de/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.1.6"></script>
+<script data-borlabs-cookie-script-blocker-id='kameloon' type='text/template' data-borlabs-cookie-script-blocker-handle="kameleoon" data-borlabs-cookie-script-blocker-id="kameloon" type='text/template' id="kameleoon-js-before">
+window.kameleoonQueue = window.kameleoonQueue || [];
+//# sourceURL=kameleoon-js-before
+</script><script data-borlabs-cookie-script-blocker-id='kameloon' type='text/template' data-borlabs-cookie-script-blocker-handle="kameleoon" data-borlabs-cookie-script-blocker-id="kameloon" type='text/template' id="kameleoon-js" data-borlabs-cookie-script-blocker-src="//9adpvs37lb.kameleoon.eu/kameleoon.js?ver=7.0.8"></script><script id="wptgg_lib/jquery.json-2.3-js" src="https://www.senertec.de/wp-content/plugins/wp_trigger/js/lib/jquery.json-2.3.js?ver=7.0.8"></script>
+<script id="wptgg_lib/jquery.scrollTo.min-js" src="https://www.senertec.de/wp-content/plugins/wp_trigger/js/lib/jquery.scrollTo.min.js?ver=7.0.8"></script>
+<script id="wptgg_lib/jquery.appear-js" src="https://www.senertec.de/wp-content/plugins/wp_trigger/js/lib/jquery.appear.js?ver=7.0.8"></script>
+<script id="wptgg_main-js" src="https://www.senertec.de/wp-content/plugins/wp_trigger/js/main.js?ver=7.0.8"></script>
+<script id="wptgg_pages/front/trigger_process-js" src="https://www.senertec.de/wp-content/plugins/wp_trigger/js/pages/front/trigger_process.js?ver=7.0.8"></script>
+<script id="avia-footer-scripts-js" src="https://www.senertec.de/wp-content/uploads/dynamic_avia/avia-footer-scripts-5c9f2035f791af62720858dd58605f2c.js"></script>
+<template id="brlbs-cmpnt-cb-template-enfold-recaptcha">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="enfold-recaptcha" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-enfold-recaptcha"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://www.senertec.de/wp-content/uploads/borlabs-cookie/1/bct-google-recaptcha-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie müssen den Inhalt von <strong>reCAPTCHA</strong> laden, um das Formular abzuschicken. Bitte beachten Sie, dass dabei Daten mit Drittanbietern ausgetauscht werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: none">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+    const template = document.querySelector("#brlbs-cmpnt-cb-template-enfold-recaptcha");
+    const divsToInsertBlocker = document.querySelectorAll('body.brlbs-blocked-av-recaptcha-enabled .av-recaptcha-area');
+
+    for (const div of divsToInsertBlocker) {
+        const blocked = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+        div.appendChild(blocked);
+        const form = div.closest('form');
+        if (form) {
+            const submitButtons = form.querySelectorAll('input.button');
+            for (const btn of submitButtons) {
+                if (btn.type === 'submit') {
+                    btn.disabled = true;
+                    btn.classList.add('av-recaptcha-submit');
+                    btn.classList.add('avia_button_inactive');
+                    btn.classList.add('brlbs-avia-contact-form-submit-btn');
+                }
+            }
+        }
+    }
+})();
+</script></body>
+</html>

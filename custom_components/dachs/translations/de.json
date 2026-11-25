@@ -1,0 +1,400 @@
+{
+  "entity": {
+    "sensor": {
+      "power": {
+        "name": "Leistung"
+      },
+      "electrical_energy": {
+        "name": "Elektrische Energie"
+      },
+      "thermal_energy": {
+        "name": "Thermische Energie"
+      },
+      "condenser_energy": {
+        "name": "Kondensator-Energie"
+      },
+      "runtime": {
+        "name": "Betriebsstunden"
+      },
+      "starts": {
+        "name": "Starts"
+      },
+      "engine_speed": {
+        "name": "Motordrehzahl"
+      },
+      "engine_runtime": {
+        "name": "Motorlaufzeit seit Start"
+      },
+      "outdoor_temperature": {
+        "name": "Außentemperatur"
+      },
+      "supply_temperature": {
+        "name": "Vorlauftemperatur"
+      },
+      "return_temperature": {
+        "name": "Rücklauftemperatur"
+      },
+      "hot_water_temperature": {
+        "name": "Warmwassertemperatur"
+      },
+      "sensor_1_temperature": {
+        "name": "Fühler F1"
+      },
+      "sensor_2_temperature": {
+        "name": "Fühler F2"
+      },
+      "sensor_3_temperature": {
+        "name": "Fühler F3"
+      },
+      "sensor_4_temperature": {
+        "name": "Fühler F4"
+      },
+      "exhaust_temperature": {
+        "name": "Abgastemperatur"
+      },
+      "engine_exhaust_temperature": {
+        "name": "Motorabgastemperatur"
+      },
+      "enclosure_temperature": {
+        "name": "Gehäusetemperatur"
+      },
+      "engine_coolant_temperature": {
+        "name": "Motorkühlmitteltemperatur"
+      },
+      "module_release_temperature": {
+        "name": "Modulfreigabetemperatur"
+      },
+      "generator_inlet_temperature": {
+        "name": "Generatoreintrittstemperatur"
+      },
+      "controller_temperature": {
+        "name": "Reglertemperatur"
+      },
+      "supply_temperature_setpoint": {
+        "name": "Vorlauf-Solltemperatur"
+      },
+      "return_temperature_setpoint": {
+        "name": "Rücklauf-Solltemperatur"
+      },
+      "fault_code": {
+        "name": "Fehlercode"
+      },
+      "warning_code": {
+        "name": "Warnungscode"
+      },
+      "requested_modules": {
+        "name": "Angeforderte Module"
+      },
+      "demand_flags": {
+        "name": "Anforderungs-Flags"
+      },
+      "release_flags": {
+        "name": "Freigabe-Flags"
+      },
+      "power_demand_flags": {
+        "name": "Stromanforderungs-Flags"
+      },
+      "power_release_flags": {
+        "name": "Stromfreigabe-Flags"
+      },
+      "data_fetched_at": {
+        "name": "Datenstand (Portal)"
+      },
+      "commissioned": {
+        "name": "Inbetriebnahme"
+      },
+      "second_generator_status_code": {
+        "name": "Statuscode zweiter Wärmeerzeuger"
+      },
+      "second_generator_starts": {
+        "name": "Starts zweiter Wärmeerzeuger"
+      },
+      "second_generator_runtime": {
+        "name": "Laufzeit zweiter Wärmeerzeuger"
+      },
+      "maintenance_interval": {
+        "name": "Wartungsintervall"
+      },
+      "last_maintenance_runtime": {
+        "name": "Betriebsstunden bei letzter Wartung"
+      },
+      "year_end_electrical_energy": {
+        "name": "Elektrische Energie (Jahr)"
+      },
+      "year_end_thermal_energy": {
+        "name": "Thermische Energie (Jahr)"
+      },
+      "year_end_condenser_energy": {
+        "name": "Kondensator-Energie (Jahr)"
+      },
+      "year_end_runtime": {
+        "name": "Betriebsstunden (Jahr)"
+      },
+      "year_end_starts": {
+        "name": "Starts (Jahr)"
+      },
+      "data_source": {
+        "name": "Datenquelle"
+      },
+      "heating_circuit_1_supply_temperature": {
+        "name": "Vorlauftemperatur Heizkreis 1"
+      },
+      "heating_circuit_2_supply_temperature": {
+        "name": "Vorlauftemperatur Heizkreis 2"
+      },
+      "heating_circuit_1_pump": {
+        "name": "Pumpe Heizkreis 1"
+      },
+      "heating_circuit_2_pump": {
+        "name": "Pumpe Heizkreis 2"
+      },
+      "circulation_pump": {
+        "name": "Zirkulationspumpe"
+      },
+      "internal_circulation_pump": {
+        "name": "Interne Umwälzpumpe"
+      },
+      "pre_pressure_pump": {
+        "name": "UP Vordruck"
+      },
+      "mixer_1_opening": {
+        "name": "Mischer 1 Auf"
+      },
+      "mixer_1_closing": {
+        "name": "Mischer 1 Zu"
+      },
+      "mixer_2_opening": {
+        "name": "Mischer 2 Auf"
+      },
+      "mixer_2_closing": {
+        "name": "Mischer 2 Zu"
+      },
+      "fault_relay": {
+        "name": "Relais Störung"
+      },
+      "maintenance_relay": {
+        "name": "Relais Wartung"
+      },
+      "alternate_heat_enabled": {
+        "name": "Freigabe Wärmeerzeuger"
+      },
+      "programmable_output_1": {
+        "name": "Programmierbarer Ausgang 1"
+      },
+      "programmable_output_2": {
+        "name": "Programmierbarer Ausgang 2"
+      },
+      "programmable_output_3": {
+        "name": "Programmierbarer Ausgang 3"
+      },
+      "power_requested": {
+        "name": "Anforderung Strom"
+      },
+      "max_runtime_module": {
+        "name": "Modul mit meisten Betriebsstunden"
+      },
+      "min_runtime_module": {
+        "name": "Modul mit wenigsten Betriebsstunden"
+      },
+      "most_starts_module": {
+        "name": "Modul mit meisten Starts"
+      },
+      "fewest_starts_module": {
+        "name": "Modul mit wenigsten Starts"
+      },
+      "most_starts": {
+        "name": "Meiste Starts (Modul)"
+      },
+      "fewest_starts": {
+        "name": "Wenigste Starts (Modul)"
+      },
+      "max_maintenance_module": {
+        "name": "Modul nahe Wartung"
+      },
+      "min_maintenance_module": {
+        "name": "Modul fern von Wartung"
+      },
+      "second_generator_warning_code": {
+        "name": "Warncode SEplus"
+      },
+      "second_generator_demand_flags": {
+        "name": "Anforderung SEplus"
+      },
+      "second_generator_release_flags": {
+        "name": "Freigabe SEplus"
+      },
+      "last_maintenance_date": {
+        "name": "Letzte Wartung"
+      },
+      "daily_electric": {
+        "name": "Produzierter Strom heute"
+      },
+      "daily_self_consumed": {
+        "name": "Eigenverbrauch heute"
+      },
+      "daily_feedin": {
+        "name": "Netzeinspeisung heute"
+      },
+      "daily_grid_import": {
+        "name": "Netzbezug heute"
+      },
+      "daily_grid_export": {
+        "name": "Netzexport heute"
+      },
+      "daily_heat": {
+        "name": "Produzierte Wärme heute"
+      },
+      "daily_hours": {
+        "name": "Betriebsstunden heute"
+      },
+      "daily_starts": {
+        "name": "Starts heute"
+      },
+      "shutdown_reason": {
+        "name": "Letzter Abschaltgrund"
+      }
+    },
+    "binary_sensor": {
+      "running": {
+        "name": "Betrieb"
+      },
+      "maintenance_due": {
+        "name": "Wartung fällig"
+      },
+      "device_online": {
+        "name": "Gerät über Portal erreichbar"
+      },
+      "warning_pending": {
+        "name": "Warnung steht an"
+      }
+    },
+    "button": {
+      "request_run": {
+        "name": "Laufanforderung senden"
+      }
+    },
+    "number": {
+      "power_demand": {
+        "name": "Leistungsanforderung (Module)"
+      }
+    }
+  },
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dachs verbinden",
+        "description": "Wie soll Home Assistant auf Ihren Dachs zugreifen?\n\n**Im lokalen Netzwerk:** Wählen Sie die automatische Erkennung, wenn Sie nicht wissen, ob Ihr Regler ein MSR2 oder MSR3 ist. Sie benötigen die IP-Adresse des Dachs.\n\n**Über die Cloud:** Wählen Sie das Portal, das Sie bereits nutzen: Dachsportal / DachsApp oder DachsConnect / DachsPortal2.",
+        "data": {
+          "connection": "Verbindungsart"
+        }
+      },
+      "local": {
+        "title": "MSR2: lokale Verbindung",
+        "description": "Geben Sie die IP-Adresse Ihres Dachs ein. Sie finden sie in der Geräteliste Ihres Routers. Die GLT-Schnittstelle der MSR2-Ethernetplatine muss aktiviert sein.\n\nÜblich sind Port **8080**, Benutzername **glt** und ein leeres Passwort. Wurden diese Einstellungen am Regler geändert, tragen Sie unten die dort eingestellten Werte ein. Hier werden nicht die Cloud-Zugangsdaten verwendet.",
+        "data": {
+          "host": "IP-Adresse oder Hostname des Dachs",
+          "port": "HTTP-Port",
+          "username": "GLT-Benutzername",
+          "password": "GLT-Passwort",
+          "scan_interval": "Aktualisierungsintervall (Sekunden)"
+        },
+        "data_description": {
+          "host": "Zum Beispiel 192.168.1.50. Sie können den Port auch hier angeben: 192.168.1.50:8080.",
+          "port": "8080 beibehalten, sofern Ihre GLT-Schnittstelle keinen anderen Port verwendet.",
+          "password": "Leer lassen, wenn kein GLT-Passwort gesetzt ist.",
+          "scan_interval": "30 Sekunden beibehalten, sofern Sie kein anderes Intervall benötigen."
+        }
+      },
+      "cloud": {
+        "title": "Dachsportal / DachsApp: anmelden",
+        "description": "Diese Verbindung nutzt das **alte Dachsportal**, auf das auch die DachsApp zugreift. Für DachsConnect / DachsPortal2 gehen Sie zurück und wählen die andere Cloud-Verbindung.\n\n[Dachsportal öffnen](https://dachsportal.senertec.com/), um Ihren Zugang zu prüfen. Gespeicherte Zugangsdaten finden Sie gegebenenfalls im Passwortmanager Ihres Browsers. Geben Sie unten Ihre Portal-ID und Ihr DachsApp-Passwort ein.",
+        "data": {
+          "portal_id": "Portal-ID",
+          "portal_password": "DachsApp-Passwort",
+          "scan_interval": "Aktualisierungsintervall (Sekunden)"
+        },
+        "data_description": {
+          "portal_id": "Der hintere Teil Ihrer Dachs-Seriennummer, den Sie für die DachsApp-Anmeldung verwenden, keine E-Mail-Adresse.",
+          "portal_password": "Das Passwort für dieses Portal verwenden, nicht Ihr DachsConnect-Passwort.",
+          "scan_interval": "Empfohlen: 120 Sekunden. Die vom Portal gelieferten Werte können bereits einige Minuten alt sein."
+        }
+      },
+      "cloud2": {
+        "title": "DachsConnect / DachsPortal2: anmelden",
+        "description": "Melden Sie sich mit der E-Mail-Adresse und dem Passwort Ihres **DachsConnect-/DachsPortal2-Kontos** an.\n\n[DachsConnect öffnen](https://dachsconnect.senertec.com/dachsportal2/#/login), um Ihre Anmeldung zu prüfen. Gespeicherte Zugangsdaten finden Sie gegebenenfalls im Passwortmanager Ihres Browsers.\n\nHome Assistant ruft die Anlagen Ihres Kontos ab. Bei mehreren Anlagen können Sie auf der nächsten Seite eine auswählen. Hier müssen Sie keine Seriennummer eingeben.",
+        "data": {
+          "email": "DachsConnect-E-Mail-Adresse",
+          "password": "DachsConnect-Passwort",
+          "native_datapoints": "Native Datenpunkte (Cloud v2)",
+          "scan_interval": "Aktualisierungsintervall (Sekunden)"
+        },
+        "data_description": {
+          "email": "Die E-Mail-Adresse Ihres Kontos verwenden, keine Seriennummer oder alte Dachsportal-ID.",
+          "native_datapoints": "Neben den dokumentierten readings alle Datenpunkte von DachsConnect anzeigen – mit den Namen und Einheiten des Portals, live aktualisiert.",
+          "scan_interval": "Empfohlen: 120 Sekunden. Legt fest, wie oft Home Assistant neue Werte anfordert."
+        }
+      },
+      "cloud2_device": {
+        "title": "Dachs auswählen",
+        "description": "Wählen Sie die Anlage, die Sie hinzufügen möchten. Jeder Eintrag zeigt Modell, Seriennummer und, falls hinterlegt, den Standortnamen.\n\nFür eine weitere Anlage desselben Kontos richten Sie diese Integration erneut ein.",
+        "data": {
+          "serial": "Anlage"
+        }
+      },
+      "glt": {
+        "title": "MSR3 / Gen2: lokale Verbindung",
+        "description": "Geben Sie die IP-Adresse Ihres Dachs Gen2 ein. Sie finden sie in der Geräteliste Ihres Routers. Aktivieren Sie zuerst die **GLT-Schnittstelle (NP221)** am Regler. Port **502** beibehalten, sofern er nicht geändert wurde.\n\nDiese Verbindung liest Daten im lokalen Netzwerk. Die Integration bietet keine MSR3-Steuerbefehle an. Daher wird **keine PIN benötigt**.",
+        "data": {
+          "host": "IP-Adresse oder Hostname des Dachs",
+          "port": "Modbus-TCP-Port",
+          "pin": "GLT-PIN (zum Lesen nicht benötigt)",
+          "scan_interval": "Aktualisierungsintervall (Sekunden)"
+        },
+        "data_description": {
+          "host": "Zum Beispiel 192.168.1.50. Home Assistant muss diese Adresse erreichen können.",
+          "pin": "Leer lassen. Diese Integration liest bei MSR3-Reglern ausschließlich Daten.",
+          "scan_interval": "30 Sekunden beibehalten, sofern Sie kein anderes Intervall benötigen."
+        }
+      },
+      "local_auto": {
+        "title": "Lokale Verbindung erkennen",
+        "description": "Geben Sie die IP-Adresse Ihres Dachs aus der Geräteliste Ihres Routers ein. Home Assistant prüft zuerst **MSR2 (Port 8080)**, dann **MSR3 / Gen2 (Port 502)** und speichert die erkannte Verbindung. Es wird nur die angegebene Adresse geprüft, nicht das gesamte Netzwerk durchsucht.\n\nBei MSR2 ist der übliche Benutzername **glt** ohne Passwort. Ändern Sie diese Felder nur, wenn am Regler andere GLT-Zugangsdaten eingestellt sind. Zum Lesen eines MSR3 werden weder Benutzername noch PIN benötigt.",
+        "data": {
+          "host": "IP-Adresse oder Hostname des Dachs",
+          "username": "MSR2-GLT-Benutzername",
+          "password": "MSR2-GLT-Passwort",
+          "pin": "MSR3-GLT-PIN (zum Lesen nicht benötigt)",
+          "scan_interval": "Aktualisierungsintervall (Sekunden)"
+        },
+        "data_description": {
+          "host": "Zum Beispiel 192.168.1.50. Bei einem abweichenden Port wählen Sie stattdessen die direkte MSR2- oder MSR3-Verbindung.",
+          "password": "Leer lassen, sofern am MSR2-Regler kein GLT-Passwort gesetzt ist.",
+          "pin": "Leer lassen. Zum Erkennen und Lesen eines MSR3-Reglers wird keine PIN benötigt.",
+          "scan_interval": "30 Sekunden beibehalten, sofern Sie kein anderes Intervall benötigen."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Keine Verbindung möglich. Bei lokalem Zugriff Adresse, Port und GLT-Schnittstelle prüfen. Bei Cloud-Zugriff Internetverbindung und Erreichbarkeit des Portals prüfen.",
+      "invalid_auth": "Anmeldung fehlgeschlagen. Prüfen Sie die Zugangsdaten für die gewählte Verbindung. Lokale GLT-Schnittstelle, Dachsportal und DachsConnect verwenden unterschiedliche Zugangsdaten.",
+      "invalid_host": "Prüfen Sie die Geräteadresse und Verbindungseinstellungen. IP-Adresse oder Hostname ohne http:// oder https:// eingeben.",
+      "no_units": "Für dieses Konto wurden keine Anlagen gefunden. Melden Sie sich im Browser bei DachsConnect an und prüfen Sie, ob Ihr Dachs dort aufgeführt ist.",
+      "unknown": "Die Einrichtung konnte nicht abgeschlossen werden. Versuchen Sie es erneut. Falls das Problem bestehen bleibt, prüfen Sie die Home-Assistant-Protokolle."
+    },
+    "abort": {
+      "already_configured": "Diese Verbindung zu Ihrem Dachs ist bereits eingerichtet.",
+      "reauth_successful": "Ihre Zugangsdaten wurden aktualisiert."
+    }
+  },
+  "selector": {
+    "connection": {
+      "options": {
+        "local_auto": "Lokal: MSR2 oder MSR3 automatisch erkennen",
+        "local": "Lokal: MSR2 (HTTP)",
+        "glt": "Lokal: MSR3 / Gen2 (Modbus TCP)",
+        "cloud": "Cloud: Dachsportal / DachsApp (altes Portal)",
+        "cloud2": "Cloud: DachsConnect / DachsPortal2 (neues Portal)"
+      }
+    }
+  }
+}

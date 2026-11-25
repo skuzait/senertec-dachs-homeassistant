@@ -1,0 +1,14 @@
+{
+  "domain": "dachs",
+  "name": "SenerTec Dachs",
+  "codeowners": ["@skuzait"],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/skuzait/senertec-dachs-homeassistant",
+  "integration_type": "hub",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/skuzait/senertec-dachs-homeassistant/issues",
+  "requirements": ["senertec-dachs==0.9.0"],
+  "categories": ["energy.meters_monitoring", "climate.thermostats_heating"],
+  "version": "0.9.0"
+}
