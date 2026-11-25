@@ -5,3 +5,5 @@ __pycache__/
 # The release zip is attached to the GitHub release, not committed.
 dachs-custom-component.zip
 dachs-*.zip
+# Internal release runbook — stays out of the public repo.
+RELEASING.md
