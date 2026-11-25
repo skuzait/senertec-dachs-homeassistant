@@ -307,7 +307,7 @@
       },
       "cloud": {
         "title": "Dachsportal / DachsApp: anmelden",
-        "description": "Diese Verbindung nutzt das **alte Dachsportal**, auf das auch die DachsApp zugreift. Für DachsConnect / DachsPortal2 gehen Sie zurück und wählen die andere Cloud-Verbindung.\n\n[Dachsportal öffnen](https://dachsportal.senertec.com/), um Ihren Zugang zu prüfen. Gespeicherte Zugangsdaten finden Sie gegebenenfalls im Passwortmanager Ihres Browsers. Geben Sie unten Ihre Portal-ID und Ihr DachsApp-Passwort ein.",
+        "description": "Diese Verbindung nutzt das **alte Dachsportal**, auf das auch die DachsApp zugreift. Für DachsConnect / DachsPortal2 gehen Sie zurück und wählen die andere Cloud-Verbindung.\n\nDachsportal öffnen, um Ihren Zugang zu prüfen. Gespeicherte Zugangsdaten finden Sie gegebenenfalls im Passwortmanager Ihres Browsers. Geben Sie unten Ihre Portal-ID und Ihr DachsApp-Passwort ein.",
         "data": {
           "portal_id": "Portal-ID",
           "portal_password": "DachsApp-Passwort",
@@ -321,7 +321,7 @@
       },
       "cloud2": {
         "title": "DachsConnect / DachsPortal2: anmelden",
-        "description": "Melden Sie sich mit der E-Mail-Adresse und dem Passwort Ihres **DachsConnect-/DachsPortal2-Kontos** an.\n\n[DachsConnect öffnen](https://dachsconnect.senertec.com/dachsportal2/#/login), um Ihre Anmeldung zu prüfen. Gespeicherte Zugangsdaten finden Sie gegebenenfalls im Passwortmanager Ihres Browsers.\n\nHome Assistant ruft die Anlagen Ihres Kontos ab. Bei mehreren Anlagen können Sie auf der nächsten Seite eine auswählen. Hier müssen Sie keine Seriennummer eingeben.",
+        "description": "Melden Sie sich mit der E-Mail-Adresse und dem Passwort Ihres **DachsConnect-/DachsPortal2-Kontos** an.\n\nDachsConnect öffnen, um Ihre Anmeldung zu prüfen. Gespeicherte Zugangsdaten finden Sie gegebenenfalls im Passwortmanager Ihres Browsers.\n\nHome Assistant ruft die Anlagen Ihres Kontos ab. Bei mehreren Anlagen können Sie auf der nächsten Seite eine auswählen. Hier müssen Sie keine Seriennummer eingeben.",
         "data": {
           "email": "DachsConnect-E-Mail-Adresse",
           "password": "DachsConnect-Passwort",

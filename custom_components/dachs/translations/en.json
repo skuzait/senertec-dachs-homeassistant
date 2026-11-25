@@ -307,7 +307,7 @@
       },
       "cloud": {
         "title": "Dachsportal / DachsApp: sign in",
-        "description": "Use this connection for the **old Dachsportal**, also used by the DachsApp. For DachsConnect / DachsPortal2, go back and choose the other cloud connection.\n\n[Open Dachsportal](https://dachsportal.senertec.com/) to check your access or look up your saved login in your browser's password manager. Enter your portal ID and DachsApp password below.",
+        "description": "Use this connection for the **old Dachsportal**, also used by the DachsApp. For DachsConnect / DachsPortal2, go back and choose the other cloud connection.\n\nOpen Dachsportal to check your access or look up your saved login in your browser's password manager. Enter your portal ID and DachsApp password below.",
         "data": {
           "portal_id": "Portal ID",
           "portal_password": "DachsApp password",
@@ -321,7 +321,7 @@
       },
       "cloud2": {
         "title": "DachsConnect / DachsPortal2: sign in",
-        "description": "Sign in with the email address and password of your **DachsConnect / DachsPortal2** account.\n\n[Open DachsConnect](https://dachsconnect.senertec.com/dachsportal2/#/login) to check your login or look up the saved credentials in your browser's password manager.\n\nHome Assistant will find the devices on your account. If there is more than one, you can choose a device on the next screen. You do not need to enter a serial number here.",
+        "description": "Sign in with the email address and password of your **DachsConnect / DachsPortal2** account.\n\nOpen DachsConnect to check your login or look up the saved credentials in your browser's password manager.\n\nHome Assistant will find the devices on your account. If there is more than one, you can choose a device on the next screen. You do not need to enter a serial number here.",
         "data": {
           "email": "DachsConnect email address",
           "password": "DachsConnect password",
