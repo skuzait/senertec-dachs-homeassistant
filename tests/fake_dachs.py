@@ -17,7 +17,8 @@ from unittest.mock import MagicMock
 
 from aiohttp import web
 
-from senertec_dachs import Cloud2Client
+# cloud2 exports are unpublished; import from the subpackage.
+from senertec_dachs.cloud2 import Cloud2Client
 from senertec_dachs.cloud2 import (
     DailyElectric,
     DailyHeat,
